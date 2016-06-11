@@ -1,4 +1,7 @@
 <?php
+
+////// DB connection
+
 $con = mysql_connect('localhost', 'root', '');
 if(!$con){
 die("Database connection failed ".mysql_error());
