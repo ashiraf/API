@@ -1,6 +1,6 @@
 <?php
 
-////// Update DB connection
+
 
 $con = mysql_connect('localhost', 'root', '');
 if(!$con){
